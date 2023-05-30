@@ -1,0 +1,138 @@
+@media  (max-width: 1150px) {
+    .container{
+        margin: 0px 25px 0px 25px;
+    }
+    .training {
+        padding: 84px 0px 60px 0px;
+    }
+    .person {
+        padding: 110px 0px 60px 0px;
+    }
+    .header__introduction__title{
+        font-size: 56px;
+    }
+    .training__row__info {
+        padding: 60px 0px 0px 0px;
+    }
+    .academy__column__title{
+        font-size: 56px;
+    }
+}
+@media  (max-width: 769px){
+    .header__benefits{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .header__benefits__item:nth-child(1){
+        width: 28%;
+    }
+    .header__benefits__item:nth-child(1),.header__benefits__item:nth-child(2){
+        margin-bottom: 40px;
+    }
+    .header__benefits__item {
+        width: 40%;
+    }
+    .training__row {
+        gap: 45px;
+    }
+    .person__row{
+        gap: 45px;
+    }
+    .person{
+        padding: 80px 0px 60px 0px;
+    }
+    .academy__column__title{
+        font-size: 46px;
+    }
+    .academy__column__text2{
+        font-size: 21px;
+    }
+    .header__introduction__title {
+        font-size: 46px;
+    }
+    .header__introduction__text2{
+        font-size: 21px;
+    }
+    .training__row__info__title{
+        font-size: 30px;
+    }
+    .training__row__info__column__item p{
+        font-size: 15px;
+    }
+    .person__row__info__title{
+        font-size: 30px;
+    }
+    .person__row__info__text2{
+        font-size: 16px;
+    }
+}
+@media  (max-width: 650px){
+    .academy__column{
+        width: 100%;
+    }
+    .header__introduction__title{
+        width: 100%;
+    }
+    .header__introduction__text2{
+        width: 84%;
+    }
+    .header__introduction {
+        padding: 0px 0px 120px 0px;
+    }
+    .training__row{
+        flex-direction: column;
+    }
+    .training__row__info {
+        padding: 20px 0px 0px 0px;
+    }
+    .person__row{
+        flex-direction: column-reverse;
+    }
+    .person__row__info{
+        width: 100%;
+    }
+    .person__row__img{
+        max-width: inherit;
+        width: 100%;
+    }
+    .person__row__info{
+        margin: 30px 0px 0px 0px;
+    }
+}
+@media  (max-width: 450px){
+    .header__introduction__title {
+        font-size: 36px;
+        line-height: 60px;
+    }
+    .header__introduction__text2{
+        font-size: 19px;
+    }
+    .header__benefits{
+        justify-content: space-between;
+    }
+    .header__benefits__item:nth-child(1){
+        width: 33%;
+    }
+    .header__benefits__item{
+        width: 48%;
+    }
+    .academy__column__title{
+        font-size: 36px;
+        line-height: 60px;
+    }
+    .academy__column__text2{
+        font-size: 19px;
+    }
+    .person__row__info {
+        margin: 0px 0px 0px 0px;
+    }
+    .training__row__info {
+        padding: 0px 0px 0px 0px;
+    }
+    .header__introduction__text2{
+        width: 100%;
+    }
+    .header__logo{
+        margin: 0px 0px 70px 0px;
+    }
+}
